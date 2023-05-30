@@ -1,3 +1,81 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+const log=document.querySelector(".login")
+const reg=document.querySelector(".registrera")
+
+const createBtn=document.querySelector(".createbutton")
+createBtn.addEventListener("click", function(){
+log.style.display="none"
+reg.style.display="block"
+})
 const toggleBtn = document.querySelector('.toggle-btn');
 const toggleBtnIcon = document.querySelector('.toggle-btn i');
 const dropDownMenu = document.querySelector('.dropdown-menu');
