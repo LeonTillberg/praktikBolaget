@@ -11,15 +11,41 @@
 </head>
 <body>
     <body>
-    <form action="login" method="POST">
-        <label for="username">Användarnamn:</label>
-        <input type="text" id="username" name="username" required><br>
+    <form class="login" action="login" method="POST">
+        <h4>Log in for students and companies</h4>
+       
+        <input type="text" id="username" name="username" required placeholder="Username"><br>
         
-        <label for="password">Lösenord:</label>
-        <input type="password" id="password" name="password" required><br>
         
-        <input type="submit" value="Logga in">
+        <input type="password" id="password" name="password" required placeholder="Password"><br>
+        <button class="submit">Log in</button>
+        
+
+        <div class="line"></div>
+
+        <p class="pp">Don't have an account? Click here</p>
+
+       <button class="createbutton">Create new account</button>
       </form>
+      <div class="registrera" >
+       <h4>Register</h4>
+       <div class="registerinput">
+        <input type="text" id="username" name="username" required placeholder="Choose username"><br>
+
+       
+        <input type="password" id="password" name="password" required placeholder="Choose password"><br>
+
+       
+        <input type="password" id="password" name="password" required placeholder="confirm password"><br>
+    </div>
+
+       <button><a href="./aboutUs.html">Create account</a></button>
+
+
+
+
+
+    </div>
     
 </body>
 </html>
