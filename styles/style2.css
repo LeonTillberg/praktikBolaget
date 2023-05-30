@@ -3,6 +3,8 @@ body {
     color: white;
     font-family: Arial, sans-serif;
     text-align: center;
+
+    min-height: 100vh;
   }
   
   .login {
@@ -107,3 +109,16 @@ body {
     line-height: 1.5;
   }
   
+  /* FOOTER */
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    border-top: 1px solid rgba(0, 0, 0, 0.941);
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+    background-color: rgb(33, 32, 32);
+}
