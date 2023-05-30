@@ -89,7 +89,7 @@ body {
 }
 
 .startedBtn {
-    background-color: #5F4BD5;
+    background-color: rgb(166, 47, 47);
     color: white;
     border-radius: 10px;
     font-size: 15px;
@@ -177,7 +177,7 @@ body {
 .layer {
     width: 100%;
     height: 0;
-    background: linear-gradient(rgba(0, 0, 0, 0.6), #5F4BD5);
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgb(166, 47, 47));
     border-radius: 10px;
     position: absolute;
     left: 0;
@@ -195,7 +195,7 @@ body {
 
 .layer button {
     margin-top: 20px;
-    color: #5F4BD5;
+    color: rgb(166, 47, 47);
     text-decoration: none;
     font-size: 16px;
     line-height: 60px;
@@ -214,7 +214,7 @@ body {
 }
 
 .btn:hover {
-    background: #5F4BD5;
+    background: rgb(166, 47, 47);
     color: white;
 }
 
@@ -226,7 +226,7 @@ footer {
     margin-top: 4rem;
     padding-top: 3rem;
     padding-bottom: 2rem;
-    background-color: #604bd54b;
+    background-color: rgb(33, 32, 32)
 }
 
 /* RESPONSIVE */
