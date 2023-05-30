@@ -1,0 +1,85 @@
+ h1 {
+     font-size: 5rem;
+ }
+
+ .hero {
+     display: flex;
+     justify-content: center;
+     height: 650px;
+ }
+
+
+ .right {
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     max-width: 45%;
+     padding-right: 1rem;
+ }
+
+ .left {
+     display: flex;
+     align-items: center;
+
+ }
+
+ .icon {
+     width: 20px;
+     color: rgb(166, 47, 47);
+     font-weight: bold;
+ }
+
+
+
+ .phone {
+     margin-top: 2rem;
+     padding-bottom: 1rem;
+     margin-bottom: 3rem;
+ }
+
+ .contact-text {
+     cursor: pointer;
+     display: flex;
+     gap: .4rem;
+     align-items: center;
+     position: relative;
+ }
+
+ .desc {
+     display: inline-block;
+     word-break: break-word;
+ }
+
+ .contact-text::after {
+     content: '';
+     position: absolute;
+     width: 100%;
+     bottom: -14px;
+     left: 30px;
+     width: 76px;
+     background-color: rgb(166, 47, 47);
+     border-radius: 12px;
+     height: 3px;
+ }
+
+
+ @media(max-width: 992px) {
+     img {
+         width: 100%;
+     }
+
+     .hero {
+         flex-direction: column;
+         justify-content: center;
+         align-items: center;
+         padding: 1rem;
+     }
+
+     .right {
+         max-width: 100%;
+     }
+
+     footer {
+         margin: 3rem 0;
+     }
+ }
