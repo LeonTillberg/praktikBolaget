@@ -109,6 +109,11 @@ body {
     color: #fbfbfb;
     line-height: 1.5;
   }
+
+  img{
+    margin-bottom: 2rem;
+    margin-top: 1.5rem;
+  }
   
   /* FOOTER */
 footer {
