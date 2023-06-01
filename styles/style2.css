@@ -47,7 +47,7 @@ body {
   input[type="password"] {
     width: 94%;
     padding: 8px;
-    border: 1px solid #777;
+    border: 1px solid #181818;
     border-radius: 3px;
     background-color: #ffffff;
     color: rgb(0, 0, 0);
@@ -86,14 +86,14 @@ body {
   }
   
  .submit:hover {
-    background-color: #777;
+    background-color: #787474;
   }
 
   main {
     max-width: 600px;
     margin: 0 auto;
     padding: 20px;
-    background-color: #707070;
+    background-color: #181818;
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(117, 117, 117, 0.078);
   }
@@ -102,11 +102,17 @@ body {
     color: #fffbfb;
     font-size: 24px;
     margin-bottom: 10px;
+    text-decoration: underline;
   }
   
   p {
     color: #fbfbfb;
     line-height: 1.5;
+  }
+
+  img{
+    margin-bottom: 2rem;
+    margin-top: 1.5rem;
   }
   
   /* FOOTER */

@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #181818;
+    
+    width: 100%;
+    
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+    padding-bottom: 5rem;
+    height:100vh;
+    
+}
+
+header {
+    width: 100%;
+}
+
+main {
+    background-color: #0E0E0E;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding-bottom: 5rem;
+    height:100vh;
+}
+
+.question {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #0E0E0E;
+    width: 100%;
+    padding-bottom: 5rem;
+    height:100vh;
+}
+
+footer {
+    
+    display: flex;
+    justify-content: space-around;
+    border-top: 1px solid rgba(0, 0, 0, 0.941);
+    padding-top: 1rem;
+    padding-bottom: 1.1rem;
+    background-color: rgb(33, 32, 32);
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+}
+
+.card {
+    width: 100%;
+    height: 20%;
+    min-height: 10rem;
+    background-color: #0E0E0E;
+    margin-bottom: 0.2rem;
+    margin-top: 0.2rem;
+    background-color: #181818;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+}
+
+.card:hover {
+    width: 100%;
+    cursor: pointer;
+    opacity: 0.9;
+    outline: 2px solid black;
+}
+
+.card p {
+    width: 10rem;
+
+}
+
+
+
+.card img {
+    min-height: 50%;
+}
+
+p {
+    color: white;
+}
+
+@media screen and (min-width: 1000px) {
+    main {
+        min-width: 50rem;
+        max-width: 60rem;
+    }
+    .card img, .card .imgsLayer {
+        min-height: 60%;
+    }
+    .imgsLayer img:last-child {
+        transform: translate(-60px, -40px);
+     }
+     .card p {
+        width: 20rem;
+    
+    }
+
+    .card:hover {
+        width: 80%;
+    }
+    .card {
+        width: 80%;
+        padding-left: 10%;
+        padding-right: 10%;
+       
+    }
+}
