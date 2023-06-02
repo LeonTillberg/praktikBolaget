@@ -4,7 +4,7 @@ body {
     font-family: Arial, sans-serif;
     text-align: center;
 
-    min-height: 100vh;
+    
   }
   
   .login {
@@ -96,6 +96,7 @@ body {
     background-color: #181818;
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(117, 117, 117, 0.078);
+    margin-bottom: 8rem;
   }
   
   h2 {
