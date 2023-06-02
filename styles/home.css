@@ -227,7 +227,10 @@ footer {
     border-top: 1px solid rgba(0, 0, 0, 0.941);
     padding-top: 2rem;
     padding-bottom: 1.5rem;
-    background-color: rgb(33, 32, 32)
+    background-color: rgb(33, 32, 32);
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
 
 /* RESPONSIVE */
